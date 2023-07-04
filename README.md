@@ -7,7 +7,7 @@
 ### Tech Stack
 
 - HTML5
-- [React](https://reactjs.org/) - JS library
+- [React](https://reactjs.org/)
 - [React-Router](https://reactjs.org/)
 - [Styled Components](https://styled-components.com/) - Para estilização dos componentes;
 - [react-hook-form](https://react-hook-form.com/) - Para validação do formulário de login e signup;
