@@ -1,5 +1,9 @@
 # entertainment-web-app
 
+### The idea
+
+- O design para este app é fornecido pelo [Frontend MentorL](https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X)
+
 ### Links
 
 - [Live Site URL](https://entertainment-web-app-portf.netlify.app)
