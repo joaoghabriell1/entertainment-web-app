@@ -34,6 +34,7 @@ const InfoContainer = styled.div`
 const ProfileContainer = styled.div`
   position: absolute;
   padding: 1rem;
+  z-index: 999;
   left: 110%;
   bottom: 0;
   height: 200px;
@@ -46,8 +47,8 @@ const ProfileContainer = styled.div`
   @media (max-width: 1000px) {
     right: 40px;
     left: auto;
-    top: 70px;
-    z-index: 2;
+    top: 80px;
+    z-index: 999;
   }
 
   @media (max-width: 350px) {
