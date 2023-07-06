@@ -3,6 +3,8 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import NavBar from "../NavBar";
 import ProfileCard from "../ProfileCard";
+import logo from "../../assets/assets/logo.svg";
+import profile from "../../assets/assets/image-avatar-2.svg";
 
 const Header = () => {
   const [profileCard, setProfileCard] = useState(false);
@@ -15,12 +17,12 @@ const Header = () => {
     <HeaderTag>
       <LogoContainer>
         <NavLink to="/">
-          <img src={require("../../assets/assets/logo.svg")} alt="" />
+          <img src={logo} alt="" />
         </NavLink>
       </LogoContainer>
       <NavBar />
       <ProfileContainer onClick={clickHandler}>
-        <img src={require("../../assets/assets/image-avatar-2.svg")} alt="" />
+        <img src={profile} alt="" />
       </ProfileContainer>
       {profileCard ? <ProfileCard /> : null}
     </HeaderTag>
