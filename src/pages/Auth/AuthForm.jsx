@@ -1,7 +1,6 @@
 import { useForm } from "react-hook-form";
 import { useContext, useEffect } from "react";
 import { useSearchParams, Link, useNavigate } from "react-router-dom";
-import { useState } from "react";
 import styled from "styled-components";
 import AuthContext from "../../store/AuthContext";
 import { Navigate } from "react-router-dom";
@@ -150,6 +149,9 @@ const AuthForm = () => {
               </Link>
             </ChangeActionButton>
           </Footer>
+          <ExampleAccount>
+            Example account: example@example.com / 123456
+          </ExampleAccount>
         </FormContainer>
       </form>
     </Wrapper>
@@ -165,6 +167,12 @@ const Wrapper = styled.div`
 const ServerError = styled.p`
   font-size: 15px;
   color: var(--light-red);
+`;
+
+const ExampleAccount = styled.div`
+  font-size: 1.4rem;
+  color: gray;
+  font-weight: 300;
 `;
 const FormContainer = styled.div`
   display: grid;
