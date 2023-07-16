@@ -139,7 +139,9 @@ const AuthForm = () => {
             </SubmitButton>
           </div>
           <Footer>
-            <Text>Don't have an account?</Text>
+            <Text>
+              {isLogin ? "Don't have an account?" : "Already have an account?"}
+            </Text>
             <ChangeActionButton>
               <Link
                 to={`${isLogin ? "/auth?mode=signup" : "/auth?mode=login"}`}
