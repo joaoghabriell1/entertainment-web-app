@@ -1,5 +1,27 @@
 # entertainment-web-app
 
+# React + TypeScript + Vite
+
+## **Como Instalar 📦**
+
+1. Clone
+
+```
+git clone https://github.com/joaoghabriell1/desafio-frontend.git
+```
+
+2. Install Packages
+
+```
+npm install
+```
+
+3. Start Project
+
+```
+npm run dev
+```
+
 ### The idea
 
 - O design para este app é fornecido pelo [Frontend Mentor](https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X)
